@@ -1,18 +1,50 @@
 body {
-  background-image: url(./film.png);
+  background-image: url(./imgs/15_918spyder.jpg) ;
+  
+  
 
   /* المطلوب الاول هنا  */
   /* اعط لون للخلفية */
   /*   : (الصورة) عدل على الخلفيه     */
   /* 1.  50px عدل على حجم الصورة */
+
+  /*use this to change background size*/
+  background-size: 50px;
+
   /* 2. اجعل الصورة تظهر مرة واحد   */
   /* hint : repeat proparty */
   /* اكتب  الكود هنا 👇🏽 */
+  background-repeat: no-repeat;
 
   /* المطلوب الخامس هنا  */
   /* يظهر بمتنصف الصفحة  movie cards  اجعل ال   */
   /* hint:    flex طول قبل استخدام خواص ال body اعط ل  */
   /* اكتب  الكود هنا 👇🏽 */
+
+
+  background-color: bisque;
+  height: 250px;
+  display: flex ;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.h1{
+  text-shadow: #ad7e19da;
+  font-style: italic;
+  font-size: large;
+  display: block;
+}
+
+#shadowh1{
+  text-shadow:2px 2px #ff0000 ;
+  font-style: italic;
+  display: block;
+}
+
+#shadow{
+  text-shadow:2px 2px #ff0000 ;
+  font-style: italic;
 }
 
 .myimage {
@@ -21,6 +53,16 @@ body {
   /* 2, border radius */
   /* 3. add box shadow */
   /* اكتب  الكود هنا 👇🏽 */
+  height: 150px;
+  border-radius: 25px;
+  
+  
+
+}
+
+img:hover{
+  box-shadow: 10px 10px 5px rgba(143, 88, 37, 0.459);
+
 }
 
 .button {
@@ -30,6 +72,15 @@ body {
            3.remove border
            4. change  background color */
   /* اكتب  الكود هنا 👇🏽 */
+
+  height: 50px;
+  width: 100px;
+  background-color: rgb(47, 25, 25);
+  outline: 0px solid transparent;
+
+
+
+
 }
 
 .container {
@@ -42,4 +93,14 @@ body {
          6.اجعل العناصر تظهر بمنتص البطاقة
          7.  border radius */
   /* اكتب  الكود هنا 👇🏽 */
+background-color: rgb(85, 63, 23);
+width: 225px;
+height: 400px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 25px;
+flex-direction: column;
+
+
 }
